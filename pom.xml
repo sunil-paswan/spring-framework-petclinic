@@ -329,6 +329,7 @@
                 <configuration> 
                      
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+                    <forkCount>3</forkCount>
                      <forkedProcessExitTimeoutInSeconds>120</forkedProcessExitTimeoutInSeconds>
                      <includes>
                         <include>**/*Tests.java</include>
