@@ -312,7 +312,7 @@
         </testResources>
         <plugins>
             <plugin>
-              <groupId>org.codehaus.mojo</groupId>
+              <groupId>org.apache.maven.plugins</groupId>
               <artifactId>sonar-maven-plugin</artifactId>
               <version>${sonar-maven-plugin.version}</version>
             </plugin>
